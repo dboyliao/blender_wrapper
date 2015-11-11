@@ -15,8 +15,9 @@ from blender_wrapper import *
 from blender_wrapper.objects.operations import *
 
 cube = Cube(name = 'MyCube', location = (2, 1, 3), radius = 0.5) # Add a cube with name.
-cube.select = False 											 # de-select an object.
-select_object("MyCube")  # Re-select object.
+cube.name
+# >>> 'MyCube'
+select_object("MyCube")  # Select object by name
 ```
 
 ## Installation
