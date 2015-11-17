@@ -1,0 +1,4 @@
+
+class BlenderObjectMeta(type):
+
+	pass
